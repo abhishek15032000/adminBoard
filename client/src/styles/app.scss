@@ -1,0 +1,31 @@
+html,body,#root,.app{
+    height:100%;
+    width:100%;
+    font-family:"Inter",sans-serif;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #171717 #e7dfdf;
+  }
+
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e7dfdf;
+  }
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e7dfdf;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #171717;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
