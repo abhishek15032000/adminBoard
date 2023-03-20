@@ -12,11 +12,11 @@ const ProductStatSchema=new mongoose.Schema({
           totalUnits:Number
       }
    ],
-   dailyData:{
+   dailyData:[{
       data:String,
       totalSales:Number,
       totalUnits:Number
-   }
+   }]
 })
 
 const ProductStat=mongoose.model("ProductStat",ProductStatSchema);
